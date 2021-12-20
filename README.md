@@ -19,6 +19,21 @@ Installation
 For only static positioning include `css/layout-grid.min.css`
 For ordering items around include `js/layout-grid.min.js`
 
+**Using jspm:**
+
+jspm install npm:layout-grid
+
+**Using npm:**
+
+npm install layout-grid
+
+**Manual:**
+
+Download the latest release on github
+
+<link rel="stylesheet" type="text/css" href="dist/css/layout-grid.min.css" />
+<script type="text/javascript" src="dist/js/layout-grid.min.js"></script>
+
 Modification
 ------------
 `sass/layout-grid.sass` allows you to modify a lot of variables for each screen size, overriding the defaults.
